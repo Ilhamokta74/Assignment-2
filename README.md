@@ -47,6 +47,6 @@ Sebelum menjalankan aplikasi ini, pastikan Anda memiliki yang berikut terpasang 
     ```
 
 # Cara Penggunaan
-### silahkan import file yang berada di repo/folder ini ke Postman
+### silahkan import file [Assignment-2.postman_collection.json] yang berada di repo/folder ini ke Postman
 
 
