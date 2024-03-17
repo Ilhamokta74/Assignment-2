@@ -15,5 +15,38 @@ Sebelum menjalankan aplikasi ini, pastikan Anda memiliki yang berikut terpasang 
 1. Klon repositori:
 
    ```bash
-   git clone https://github.com/username/aplikasi-go-anda.git
+   git clone https://github.com/Ilhamokta74/Assignment-2.git
+
+2. Pindah ke direktori proyek:
+
+    ```bash
+    cd <Nama Folder>
+    ```
+
+3. Download depedensi dengan perintah:
+
+    ```bash
+    go mod download
+    ```
+
+4. Buat file .env lalu isi dengan perintah ini:
+
+    ```bash
+    DB_HOST=localhost
+   DB_USER=postgres [sesuaikan dengan user database milik anda]
+   DB_PASSWORD=password [sesuaikan dengan password database milik anda]
+   DB_PORT=5432
+   DB_NAME=assignment-2 [sesuaikan dengan nama table milik anda]
+
+    ```
+
+5. Jalankan aplikasi dengan perintah:
+
+    ```bash
+    go run main.go
+    ```
+
+# Cara Penggunaan
+### silahkan import file yang berada di repo/folder ini ke Postman
+
 
